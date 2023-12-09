@@ -29,3 +29,7 @@ https://towardsdatascience.com/formula-1-race-predictor-5d4bfae887da
 https://github.com/stevau5/Formula-1-Big-Data-Analysis/tree/master
 https://github.com/stevau5/Formula-1-Big-Data-Analysis/tree/master (DATASETS)
 https://www.kaggle.com/datasets/jtrotman/formula-1-race-events?select=safety_cars.csv (DATASETS)
+https://www.f1cfa.com/f1-tyres-statistics.asp?t=2023&gpn=Monaco&tipo=All&driver=All
+https://www.f1cfa.com/f1-tyres-statistics.asp?t=2021&gpn=Monaco&tipo=All&driver=All
+https://www.f1cfa.com/f1-tyres-statistics.asp?t=2023&gpn=Hungary&tipo=All&driver=All
+https://www.f1cfa.com/f1-tyres-statistics.asp?t=2023&gpn=Netherlands&tipo=All&driver=All
