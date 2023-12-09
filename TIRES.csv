@@ -1,0 +1,44 @@
+Placement,Driver,Grand Prix,Tyres,From,To,#Laps Used,Strategy Used
+1st,Max Verstappen,Dry Great Britain,Medium ,1,33,33,2 Stop
+,Max Verstappen,Dry Great Britain,Soft,34,52,19,
+2nd,Lando Norris,Dry Great Britain,Medium ,1,33,33,2 Stop
+,Lando Norris,Dry Great Britain,Hard,34,52,19,
+3rd,Lewis Hamilton,Dry Great Britain,Medium,1,33,33,2 Stop
+,Lewis Hamilton,Dry Great Britain,Soft,34,52,19,
+4th,Oscar Piastri,Dry Great Britain,Medium,1,29,29,2 Stop
+,Oscar Piastri,Dry Great Britain,Hard,30,52,23,
+5th,George Russell,Dry Great Britain,Soft,1,28,28,2 Stop
+,George Russell,Dry Great Britain,Medium,29,52,24,
+6th,Sergio Perez,Dry Great Britain,Medium,1,28,28,2 Stop
+,Sergio Perez,Dry Great Britain,Soft,29,52,24,
+7th,Fernando Alonso,Dry Great Britain,Medium,1,33,33,2 Stop
+,Fernando Alonso,Dry Great Britain,Soft,34,52,19,
+8th,Alexander Albon,Dry Great Britain,Medium,1,32,32,2 Stop
+,Alexander Albon,Dry Great Britain,Soft,33,52,20,
+9th,Charles Leclerc,Dry Great Britain,Medium,1,18,18,3 Stop
+,Charles Leclerc,Dry Great Britain,Hard,19,32,14,
+,Charles Leclerc,Dry Great Britain,Medium,33,52,20,
+10th,Carlos Sainz,Dry Great Britain,Medium,1,26,26,2 Stop
+,Carlos Sainz,Dry Great Britain,Hard,27,52,26,
+11th,Logan Sargeant,Dry Great Britain,Medium,1,29,29,2 Stop
+,Logan Sargeant,Dry Great Britain,Soft,30,52,23,
+12th,Valtteri Bottas,Dry Great Britain,Hard,1,32,32,2 Stop
+,Valtteri Bottas,Dry Great Britain,Soft,33,52,20,
+13th,Nico Hulkenberg,Dry Great Britain,Hard,1,7,7,3 Stop
+,Nico Hulkenberg,Dry Great Britain,Medium,8,32,25,
+,Nico Hulkenberg,Dry Great Britain,Soft,33,52,20,
+14th,Lance Stroll,Dry Great Britain,Medium,1,31,31,2 Stop
+,Lance Stroll,Dry Great Britain,Soft,32,52,21,
+15th,Zhou Guanyu,Dry Great Britain,Medium,1,24,24,3 Stop
+,Zhou Guanyu,Dry Great Britain,Hard,25,33,9,
+,Zhou Guanyu,Dry Great Britain,Soft,34,52,19,
+16th,Yuki Tsunoda,Dry Great Britain,Soft,1,14,14,3 Stop
+,Yuki Tsunoda,Dry Great Britain,Hard,15,32,18,
+,Yuki Tsunoda,Dry Great Britain,Soft,33,52,20,
+17th,Nyck de Vries,Dry Great Britain,Soft,1,27,27,3 Stop
+,Nyck de Vries,Dry Great Britain,Medium,28,32,5,
+,Nyck de Vries,Dry Great Britain,Soft,33,52,20,
+DNF,Pierre Gasly,Dry Great Britain,Medium ,1,31,31,
+,Pierre Gasly,Dry Great Britain,Soft,32,46,15,
+DNF,Kevin Magnussen,Dry Great Britain,Medium,1,31,31,
+DNF,Esteban Ocon,Dry Great Britain,Soft,1,9,9,
