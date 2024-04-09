@@ -6,7 +6,7 @@ MONACOFINISH2.csv (Rain Forest Model)
 TIRES.csv (Gradient Model)
 
 Project Overview
-This repository contains the data analysis and machine learning models developed to analyze Formula 1 racing strategies, with a focus on predictive outcomes and strategic recommendations for constructor teams. The project utilizes various datasets encapsulated in CSV format, including detailed race data that serves as the backbone for our Gradient Boosting, Linear Regression, and Random Forest ("Rain Forest") models.
+This repository contains the data analysis and machine learning models developed to analyze Formula 1 racing strategies, with a focus on predictive outcomes and strategic recommendations for constructor teams. The project utilizes various datasets encapsulated in CSV format, including detailed race data that serves as the backbone for our Gradient Boosting, Linear Regression, and Random Forest models.
 
 Models and Analysis
 Gradient Boosting Model: Employed to understand the nuances of Formula 1 race strategies and their impact on race outcomes. The model uses historical data to highlight the importance of various strategic elements, such as pit stops and tire selection.
