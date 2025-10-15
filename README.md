@@ -23,5 +23,5 @@ A comprehensive analysis using three machine learning models to predict race out
 
 ## Live Demo
 
-[View Interactive Analysis](https://your-vercel-url.vercel.app)
+[View Interactive Analysis](https://strategic-machine-learning-for-formula-1-4hawl1v4x.vercel.app/)
 
