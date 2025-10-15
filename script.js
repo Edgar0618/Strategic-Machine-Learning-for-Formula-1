@@ -64,24 +64,7 @@ document.addEventListener('DOMContentLoaded', function() {
     const importanceBars = document.querySelectorAll('.importance-list');
     importanceBars.forEach(bar => observer.observe(bar));
 
-    // Add typing effect to hero title
-    const heroTitle = document.querySelector('.hero-section h2');
-    if (heroTitle) {
-        const text = heroTitle.textContent;
-        heroTitle.textContent = '';
-        let i = 0;
-        
-        function typeWriter() {
-            if (i < text.length) {
-                heroTitle.textContent += text.charAt(i);
-                i++;
-                setTimeout(typeWriter, 50);
-            }
-        }
-        
-        // Start typing effect after a short delay
-        setTimeout(typeWriter, 1000);
-    }
+    // Hero title loads statically - no typing animation
 
     // Add counter animation to stats
     const statNumbers = document.querySelectorAll('.stat-number');
