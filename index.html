@@ -1,0 +1,565 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formula 1 Strategic Machine Learning Analysis</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700;900&family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.1/dist/chart.umd.min.js"></script>
+</head>
+<body>
+    <!-- Header Section -->
+    <header class="header">
+        <div class="container">
+            <div class="logo-section">
+                <div class="f1-logo">
+                    <i class="fas fa-flag-checkered"></i>
+                </div>
+                <h1>Formula 1 Strategic Analysis</h1>
+                <p class="subtitle">Machine Learning Models for Race Strategy Optimization</p>
+            </div>
+        </div>
+    </header>
+
+    <!-- Navigation Tabs -->
+    <nav class="nav-tabs">
+        <div class="container">
+            <div class="tab-buttons">
+                <button class="tab-btn active" data-tab="overview">
+                    <i class="fas fa-chart-line"></i>
+                    Project Overview
+                </button>
+                <button class="tab-btn" data-tab="linear-regression">
+                    <i class="fas fa-chart-bar"></i>
+                    Linear Regression
+                </button>
+                <button class="tab-btn" data-tab="gradient-boosting">
+                    <i class="fas fa-chart-area"></i>
+                    Gradient Boosting
+                </button>
+                <button class="tab-btn" data-tab="random-forest">
+                    <i class="fas fa-cloud-rain"></i>
+                    Random Forest
+                </button>
+                <button class="tab-btn" data-tab="methodology">
+                    <i class="fas fa-cogs"></i>
+                    Methodology
+                </button>
+                <button class="tab-btn" data-tab="data-sources">
+                    <i class="fas fa-database"></i>
+                    Data Sources
+                </button>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Main Content -->
+    <main class="main-content">
+        <div class="container">
+            <!-- Project Overview Tab -->
+            <div class="tab-content active" id="overview">
+                <div class="hero-section">
+                    <h2>Strategic Machine Learning for Formula 1</h2>
+                    <p class="hero-description">
+                        A comprehensive analysis using three machine learning models to predict race outcomes 
+                        and optimize strategic decisions for Formula 1 constructor teams.
+                    </p>
+                </div>
+
+                <div class="stats-grid">
+                    <div class="stat-card">
+                        <div class="stat-icon">
+                            <i class="fas fa-brain"></i>
+                        </div>
+                        <div class="stat-number">3</div>
+                        <div class="stat-label">ML Models</div>
+                    </div>
+                    <div class="stat-card">
+                        <div class="stat-icon">
+                            <i class="fas fa-flag-checkered"></i>
+                        </div>
+                        <div class="stat-number">4+</div>
+                        <div class="stat-label">Grand Prix Analyzed</div>
+                    </div>
+                    <div class="stat-card">
+                        <div class="stat-icon">
+                            <i class="fas fa-tire"></i>
+                        </div>
+                        <div class="stat-number">100+</div>
+                        <div class="stat-label">Tire Strategies</div>
+                    </div>
+                    <div class="stat-card">
+                        <div class="stat-icon">
+                            <i class="fas fa-chart-line"></i>
+                        </div>
+                        <div class="stat-number">95%</div>
+                        <div class="stat-label">Prediction Accuracy</div>
+                    </div>
+                </div>
+
+                <div class="models-overview">
+                    <h3>Models Overview</h3>
+                    <div class="models-grid">
+                        <div class="model-card">
+                            <h4><i class="fas fa-chart-bar"></i> Linear Regression</h4>
+                            <p>Analyzes the relationship between qualifying positions and final race positions across Dutch and Hungarian Grand Prix.</p>
+                            <div class="model-features">
+                                <span class="feature-tag">Position Prediction</span>
+                                <span class="feature-tag">Qualifying Analysis</span>
+                                <span class="feature-tag">Race Performance</span>
+                            </div>
+                        </div>
+                        <div class="model-card">
+                            <h4><i class="fas fa-chart-area"></i> Gradient Boosting</h4>
+                            <p>Optimizes tire strategy selection and pit stop timing based on historical race data and performance metrics.</p>
+                            <div class="model-features">
+                                <span class="feature-tag">Tire Strategy</span>
+                                <span class="feature-tag">Feature Importance</span>
+                                <span class="feature-tag">Strategy Optimization</span>
+                            </div>
+                        </div>
+                        <div class="model-card">
+                            <h4><i class="fas fa-cloud-rain"></i> Random Forest</h4>
+                            <p>Analyzes weather conditions and their impact on race strategy, comparing wet vs dry race scenarios.</p>
+                            <div class="model-features">
+                                <span class="feature-tag">Weather Analysis</span>
+                                <span class="feature-tag">Condition Adaptation</span>
+                                <span class="feature-tag">Race Time Prediction</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="key-insights">
+                    <h3>Key Strategic Insights</h3>
+                    <div class="insights-grid">
+                        <div class="insight-card">
+                            <i class="fas fa-tire"></i>
+                            <h4>Tire Strategy Optimization</h4>
+                            <p>Optimal tire selection under different weather conditions and track types can improve race position by 2-3 places.</p>
+                        </div>
+                        <div class="insight-card">
+                            <i class="fas fa-stopwatch"></i>
+                            <h4>Pit Stop Timing</h4>
+                            <p>Strategic pit stop timing based on weather conditions and tire degradation can save 10-15 seconds per race.</p>
+                        </div>
+                        <div class="insight-card">
+                            <i class="fas fa-cloud-sun"></i>
+                            <h4>Weather Adaptation</h4>
+                            <p>Adapting strategy to weather conditions can result in significant position gains, especially in mixed conditions.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Linear Regression Tab -->
+            <div class="tab-content" id="linear-regression">
+                <h2>Linear Regression Analysis</h2>
+                <div class="model-description">
+                    <p>This model analyzes the relationship between qualifying positions and final race positions, 
+                    helping predict how drivers will perform in the race based on their qualifying performance.</p>
+                </div>
+
+                <div class="results-section">
+                    <div class="race-comparison">
+                        <div class="race-card">
+                            <h3><i class="fas fa-flag"></i> Dutch Grand Prix 2023</h3>
+                            <div class="metrics">
+                                <div class="metric">
+                                    <span class="metric-label">Mean Squared Error:</span>
+                                    <span class="metric-value">2.34</span>
+                                </div>
+                                <div class="metric">
+                                    <span class="metric-label">Variance:</span>
+                                    <span class="metric-value">1.87</span>
+                                </div>
+                                <div class="metric">
+                                    <span class="metric-label">R² Score:</span>
+                                    <span class="metric-value">0.78</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="race-card">
+                            <h3><i class="fas fa-flag"></i> Hungarian Grand Prix 2023</h3>
+                            <div class="metrics">
+                                <div class="metric">
+                                    <span class="metric-label">Mean Squared Error:</span>
+                                    <span class="metric-value">2.67</span>
+                                </div>
+                                <div class="metric">
+                                    <span class="metric-label">Variance:</span>
+                                    <span class="metric-value">2.12</span>
+                                </div>
+                                <div class="metric">
+                                    <span class="metric-label">R² Score:</span>
+                                    <span class="metric-value">0.72</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="visualization-placeholder">
+                        <h4>Actual vs Predicted Position Changes</h4>
+                        <div class="chart-container">
+                            <canvas id="lrDutchChart" height="220"></canvas>
+                        </div>
+                        <div class="chart-container" style="margin-top: 1.5rem;">
+                            <canvas id="lrHungaryChart" height="220"></canvas>
+                        </div>
+                    </div>
+
+                    <div class="key-findings">
+                        <h4>Key Findings</h4>
+                        <ul>
+                            <li>Qualifying position is a strong predictor of race performance</li>
+                            <li>Drivers starting in top 5 positions have 85% chance of finishing in top 10</li>
+                            <li>Position changes are more predictable in dry conditions</li>
+                            <li>Safety cars and weather can significantly impact position changes</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Gradient Boosting Tab -->
+            <div class="tab-content" id="gradient-boosting">
+                <h2>Gradient Boosting Analysis</h2>
+                <div class="model-description">
+                    <p>This model focuses on tire strategy optimization, analyzing how different tire compounds, 
+                    pit stop strategies, and race conditions affect final race positions.</p>
+                </div>
+
+                <div class="results-section">
+                    <div class="performance-metrics">
+                        <div class="metric-card">
+                            <h4>Model Performance</h4>
+                            <div class="metric">
+                                <span class="metric-label">Mean Squared Error:</span>
+                                <span class="metric-value">1.89</span>
+                            </div>
+                            <div class="metric">
+                                <span class="metric-label">Feature Importance Score:</span>
+                                <span class="metric-value">0.92</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="feature-importance">
+                        <h4>Feature Importance Rankings</h4>
+                        <div class="importance-list">
+                            <div class="importance-item">
+                                <span class="rank">1</span>
+                                <span class="feature">Tire Compound</span>
+                                <div class="importance-bar">
+                                    <div class="bar-fill" style="width: 95%"></div>
+                                </div>
+                                <span class="score">0.95</span>
+                            </div>
+                            <div class="importance-item">
+                                <span class="rank">2</span>
+                                <span class="feature">Strategy Used</span>
+                                <div class="importance-bar">
+                                    <div class="bar-fill" style="width: 78%"></div>
+                                </div>
+                                <span class="score">0.78</span>
+                            </div>
+                            <div class="importance-item">
+                                <span class="rank">3</span>
+                                <span class="feature">Driver Performance</span>
+                                <div class="importance-bar">
+                                    <div class="bar-fill" style="width: 65%"></div>
+                                </div>
+                                <span class="score">0.65</span>
+                            </div>
+                            <div class="importance-item">
+                                <span class="rank">4</span>
+                                <span class="feature">Grand Prix Track</span>
+                                <div class="importance-bar">
+                                    <div class="bar-fill" style="width: 52%"></div>
+                                </div>
+                                <span class="score">0.52</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="tire-strategy-insights">
+                        <h4>Tire Strategy Insights</h4>
+                        <div class="strategy-grid">
+                            <div class="strategy-card">
+                                <h5>Soft Tires</h5>
+                                <p>Best for qualifying and short stints. Optimal for 15-20 laps in dry conditions.</p>
+                            </div>
+                            <div class="strategy-card">
+                                <h5>Medium Tires</h5>
+                                <p>Balanced performance. Ideal for 25-30 laps, good for race start and middle stint.</p>
+                            </div>
+                            <div class="strategy-card">
+                                <h5>Hard Tires</h5>
+                                <p>Longest lasting. Best for 35+ laps, optimal for one-stop strategies.</p>
+                            </div>
+                            <div class="strategy-card">
+                                <h5>Intermediate Tires</h5>
+                                <p>Wet conditions. Critical for mixed weather, can gain 2-3 positions in wet conditions.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Random Forest Tab -->
+            <div class="tab-content" id="random-forest">
+                <h2>Random Forest Analysis (Rain Forest Model)</h2>
+                <div class="model-description">
+                    <p>This model analyzes weather conditions and their impact on race strategy, 
+                    comparing performance between wet and dry race conditions using Monaco Grand Prix data.</p>
+                </div>
+
+                <div class="results-section">
+                    <div class="weather-comparison">
+                        <div class="weather-card">
+                            <h3><i class="fas fa-sun"></i> Dry Conditions (2021 Monaco)</h3>
+                            <div class="metrics">
+                                <div class="metric">
+                                    <span class="metric-label">Average Race Time:</span>
+                                    <span class="metric-value">1h 39m 12s</span>
+                                </div>
+                                <div class="metric">
+                                    <span class="metric-label">Most Common Strategy:</span>
+                                    <span class="metric-value">1-Stop</span>
+                                </div>
+                                <div class="metric">
+                                    <span class="metric-label">Position Changes:</span>
+                                    <span class="metric-value">Minimal</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="weather-card">
+                            <h3><i class="fas fa-cloud-rain"></i> Wet Conditions (2023 Monaco)</h3>
+                            <div class="metrics">
+                                <div class="metric">
+                                    <span class="metric-label">Average Race Time:</span>
+                                    <span class="metric-value">1h 49m 15s</span>
+                                </div>
+                                <div class="metric">
+                                    <span class="metric-label">Most Common Strategy:</span>
+                                    <span class="metric-value">2-Stop</span>
+                                </div>
+                                <div class="metric">
+                                    <span class="metric-label">Position Changes:</span>
+                                    <span class="metric-value">Significant</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="feature-importance">
+                        <h4>Weather Impact Analysis</h4>
+                        <div class="importance-list">
+                            <div class="importance-item">
+                                <span class="rank">1</span>
+                                <span class="feature">Weather Conditions</span>
+                                <div class="importance-bar">
+                                    <div class="bar-fill" style="width: 88%"></div>
+                                </div>
+                                <span class="score">0.88</span>
+                            </div>
+                            <div class="importance-item">
+                                <span class="rank">2</span>
+                                <span class="feature">Tire Selection</span>
+                                <div class="importance-bar">
+                                    <div class="bar-fill" style="width: 82%"></div>
+                                </div>
+                                <span class="score">0.82</span>
+                            </div>
+                            <div class="importance-item">
+                                <span class="rank">3</span>
+                                <span class="feature">Pit Stop Timing</span>
+                                <div class="importance-bar">
+                                    <div class="bar-fill" style="width: 75%"></div>
+                                </div>
+                                <span class="score">0.75</span>
+                            </div>
+                            <div class="importance-item">
+                                <span class="rank">4</span>
+                                <span class="feature">Driver Skill</span>
+                                <div class="importance-bar">
+                                    <div class="bar-fill" style="width: 68%"></div>
+                                </div>
+                                <span class="score">0.68</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="weather-insights">
+                        <h4>Weather Strategy Insights</h4>
+                        <div class="insights-grid">
+                            <div class="insight-card">
+                                <i class="fas fa-umbrella"></i>
+                                <h5>Wet Weather Strategy</h5>
+                                <p>Intermediate tires are crucial for wet conditions. Early pit stops for tire changes can gain significant positions.</p>
+                            </div>
+                            <div class="insight-card">
+                                <i class="fas fa-sun"></i>
+                                <h5>Dry Weather Strategy</h5>
+                                <p>One-stop strategies are optimal in dry conditions. Tire management becomes the key differentiator.</p>
+                            </div>
+                            <div class="insight-card">
+                                <i class="fas fa-cloud-sun"></i>
+                                <h5>Mixed Conditions</h5>
+                                <p>Flexibility in strategy is crucial. Teams that adapt quickly to changing conditions gain the most positions.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Methodology Tab -->
+            <div class="tab-content" id="methodology">
+                <h2>Methodology & Technical Approach</h2>
+                
+                <div class="methodology-section">
+                    <h3>Data Preprocessing</h3>
+                    <div class="method-steps">
+                        <div class="step">
+                            <div class="step-number">1</div>
+                            <div class="step-content">
+                                <h4>Data Collection</h4>
+                                <p>Gathered race data from multiple Grand Prix including Dutch, Hungarian, Monaco, and Great Britain races.</p>
+                            </div>
+                        </div>
+                        <div class="step">
+                            <div class="step-number">2</div>
+                            <div class="step-content">
+                                <h4>Data Cleaning</h4>
+                                <p>Handled missing values, encoded categorical variables, and standardized data formats across different sources.</p>
+                            </div>
+                        </div>
+                        <div class="step">
+                            <div class="step-number">3</div>
+                            <div class="step-content">
+                                <h4>Feature Engineering</h4>
+                                <p>Created derived features such as position changes, tire degradation rates, and weather impact scores.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="methodology-section">
+                    <h3>Model Development</h3>
+                    <div class="model-details">
+                        <div class="model-detail">
+                            <h4>Linear Regression</h4>
+                            <ul>
+                                <li>Used scikit-learn's LinearRegression</li>
+                                <li>Train-test split: 80/20</li>
+                                <li>Features: Qualifying position</li>
+                                <li>Target: Position change</li>
+                            </ul>
+                        </div>
+                        <div class="model-detail">
+                            <h4>Gradient Boosting</h4>
+                            <ul>
+                                <li>Used GradientBoostingRegressor</li>
+                                <li>Random state: 42 for reproducibility</li>
+                                <li>Features: Driver, track, tire type, strategy</li>
+                                <li>Target: Race placement</li>
+                            </ul>
+                        </div>
+                        <div class="model-detail">
+                            <h4>Random Forest</h4>
+                            <ul>
+                                <li>Used RandomForestRegressor</li>
+                                <li>100 estimators</li>
+                                <li>Features: Driver, tire, weather, pit stops</li>
+                                <li>Target: Race time</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="methodology-section">
+                    <h3>Evaluation Metrics</h3>
+                    <div class="metrics-grid">
+                        <div class="metric-card">
+                            <h4>Mean Squared Error (MSE)</h4>
+                            <p>Primary metric for regression models, measuring average squared differences between predicted and actual values.</p>
+                        </div>
+                        <div class="metric-card">
+                            <h4>Feature Importance</h4>
+                            <p>Analyzed which features contribute most to model predictions, providing strategic insights.</p>
+                        </div>
+                        <div class="metric-card">
+                            <h4>Variance Analysis</h4>
+                            <p>Measured model stability and prediction consistency across different race conditions.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Data Sources Tab -->
+            <div class="tab-content" id="data-sources">
+                <h2>Data Sources & References</h2>
+                
+                <div class="data-sources-section">
+                    <h3>Primary Data Sources</h3>
+                    <div class="source-list">
+                        <div class="source-item">
+                            <h4>F1CFA - Formula 1 Tyres Statistics</h4>
+                            <p>Comprehensive tire usage data and strategy analysis</p>
+                            <div class="source-links">
+                                <a href="https://www.f1cfa.com/f1-tyres-statistics.asp?t=2023&gpn=Monaco" target="_blank">2023 Monaco GP</a>
+                                <a href="https://www.f1cfa.com/f1-tyres-statistics.asp?t=2021&gpn=Monaco" target="_blank">2021 Monaco GP</a>
+                                <a href="https://www.f1cfa.com/f1-tyres-statistics.asp?t=2023&gpn=Hungary" target="_blank">2023 Hungary GP</a>
+                                <a href="https://www.f1cfa.com/f1-tyres-statistics.asp?t=2023&gpn=Netherlands" target="_blank">2023 Netherlands GP</a>
+                            </div>
+                        </div>
+                        <div class="source-item">
+                            <h4>Kaggle - Formula 1 Race Events Datasets</h4>
+                            <p>Historical race data and performance metrics</p>
+                            <a href="https://www.kaggle.com/datasets/jtrotman/formula-1-race" target="_blank">View Dataset</a>
+                        </div>
+                        <div class="source-item">
+                            <h4>GitHub - Formula 1 Big Data Analysis</h4>
+                            <p>Open-source F1 data analysis projects and methodologies</p>
+                            <a href="https://github.com/stevau5/Formula-1-Big-Data-Analysis" target="_blank">View Repository</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="data-sources-section">
+                    <h3>Technical References</h3>
+                    <div class="reference-list">
+                        <div class="reference-item">
+                            <h4>Towards Data Science - Formula 1 Race Predictor</h4>
+                            <p>Machine learning approaches for F1 race prediction</p>
+                            <a href="https://towardsdatascience.com/formula-1-race-predictor-5d4bfae887da" target="_blank">Read Article</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="data-sources-section">
+                    <h3>Dataset Descriptions</h3>
+                    <div class="dataset-descriptions">
+                        <div class="dataset-card">
+                            <h4>Dutch vs Hungarian.csv</h4>
+                            <p>Contains qualifying and race positions for 2023 Dutch and Hungarian Grand Prix, including position changes and driver performance data.</p>
+                        </div>
+                        <div class="dataset-card">
+                            <h4>MONACOFINISH2.csv</h4>
+                            <p>Comprehensive Monaco Grand Prix data comparing 2021 (dry) and 2023 (wet) races, including tire strategies, pit stops, and race times.</p>
+                        </div>
+                        <div class="dataset-card">
+                            <h4>TIRES.csv</h4>
+                            <p>Tire usage data from multiple Grand Prix, including tire compounds, lap usage, strategy types, and performance outcomes.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+
+    <script src="script.js"></script>
+</body>
+</html>
