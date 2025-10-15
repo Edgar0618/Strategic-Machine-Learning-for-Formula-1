@@ -25,9 +25,3 @@ A comprehensive analysis using three machine learning models to predict race out
 
 [View Interactive Analysis](https://your-vercel-url.vercel.app)
 
-## Files
-
-- `index.html` - Interactive webpage with results
-- `LinearRegression.py` - Linear regression model
-- `Gradient Boosting` - Gradient boosting implementation
-- `Random Forest Model` - Random forest analysis
